@@ -1,4 +1,4 @@
-const foo = 'baar'
+const foo = 'bar'
 
 export default function Home() {
   return (
