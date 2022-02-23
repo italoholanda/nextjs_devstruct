@@ -11,7 +11,7 @@
     "postinstall": "husky install"
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/": [
       "yarn eslint --fix"
     ]
   },
