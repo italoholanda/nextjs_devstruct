@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
         margin: 0 auto;
         width: 100%;
         max-width: 768px;
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 `
 
