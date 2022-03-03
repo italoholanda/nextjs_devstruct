@@ -12,6 +12,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
 
+  background: var(--white);
   border-bottom: var(--grey-100) 1px solid;
 
   > div {
