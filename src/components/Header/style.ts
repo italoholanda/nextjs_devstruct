@@ -1,13 +1,18 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
+interface Props {
+  scrollPosition: number
+}
+
+export const Header = styled.header<Props>`
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
 
   width: 100vw;
-  height: 6rem;
+  height: ${(props) => (props.scrollPosition < 64 ? '6rem' : '4rem')};
+  transition: height 0.2s;
 
   display: flex;
   align-items: center;
